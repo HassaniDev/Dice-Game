@@ -228,19 +228,26 @@ main {
   display: none;
 }
 
+/* When player--winner class is absent */
 .winner {
   display: none;
 }
 
 .player--winner .winner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  position: absolute;
+  bottom: 8.5rem;
   font-size: 3.2rem;
   font-family: inherit;
   color: var(--white);
   z-index: 10;
+}
+
+.player--winner .current-winner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .player--winner .icon {
