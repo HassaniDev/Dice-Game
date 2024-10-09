@@ -35,7 +35,7 @@ This project is structured using the MVC (Model-View-Controller) architecture, w
 
 ## 🎮 Demo
 
-You can play the game live [here](#). _(This link isn't available yet)_
+You can play the game live [here](https://dice-game-hassanidev.netlify.app/)
 
 ## 📂 Installation
 
@@ -63,6 +63,11 @@ If you prefer to play the game without sound, please feel free to mute your brow
 - 🎮 Implement single-player mode.
 - 📱 Improve mobile responsiveness.
 - 🎵 Add background soft music to enhance focus, with an option for the player to disable or mute the music.
+- 🌑 **Dark Theme**: Currently, the game only supports a light theme. A dark theme option will be implemented in future updates for better user customization.
+
+## ⚠️ Important Note
+
+This game uses fonts from Google Fonts, which require an active internet 🌐 connection. Please ensure that your Wi-Fi 🛜 or internet 🌐 connection is turned on for the fonts to load correctly and for the best experience.
 
 ## 🏅 Credits
 

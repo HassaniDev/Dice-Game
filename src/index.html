@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Dice Game &mdash; Challenge Your Friends and Win!</title>
+    <title>Dice Game &mdash; Challenge Your Friends and Win! 🏆</title>
     <link rel="stylesheet" href="./CSS/style.css" />
     <script defer type="module" src="./JS/controller.js"></script>
 
-    <!-- FAVICON -->
+    <!-- 🌟 FAVICON -->
     <link rel="shortcut icon" href="./Images/favicon.png" type="image/x-icon" />
 
-    <!-- FONTS -->
+    <!-- 🌐 FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,7 +21,7 @@
   </head>
   <body>
     <main>
-      <!-- Player 0 -->
+      <!-- 👤 Player 0 -->
       <section class="player player--0 player--active">
         <h2 class="name" id="name--0">Player 1</h2>
         <p class="score" id="score--0">99</p>
@@ -30,17 +30,21 @@
           <p class="current-score" id="current--0">0</p>
         </div>
 
-        <!-- Winner -->
-        <div class="winner">
-          <p class="icon">🎉</p>
-          <p class="message">You won!</p>
-          <p class="stats">
-            Congratulations 🎉, you won by <strong>100</strong> points!
-          </p>
+        <!-- 🏅 Winner -->
+        <div class="winner winner--0">
+          <!-- 
+          <div class="current-winner">
+            <p class="icon">🎉</p>
+            <p class="message">You won! 🏆</p>
+            <p class="stats">
+              Congratulations 🎉, you won by <strong>100</strong> points!
+            </p>
+          </div> 
+          -->
         </div>
       </section>
 
-      <!-- Player 1 -->
+      <!-- 👤 Player 1 -->
       <section class="player player--1">
         <h2 class="name" id="name--1">Player 2</h2>
         <p class="score" id="score--1">88</p>
@@ -49,25 +53,29 @@
           <p class="current-score" id="current--1">0</p>
         </div>
 
-        <!-- Winner -->
-        <div class="winner">
-          <p class="icon">🎉</p>
-          <p class="message">You won!</p>
-          <p class="stats">
-            Congratulations 🎉, you won by
-            <strong class="points">100</strong> points!
-          </p>
+        <!-- 🏅 Winner -->
+        <div class="winner winner--1">
+          <!-- 
+          <div class="current-winner">
+            <p class="icon">🎉</p>
+            <p class="message">You won! 🏆</p>
+            <p class="stats">
+              Congratulations 🎉, you won by <strong>100</strong> points!
+            </p>
+          </div> 
+          -->
         </div>
       </section>
 
-      <img src="./Images/dice-5.png" alt="Playing dice" class="dice" />
+      <!-- 🎮 Functionality -->
+      <img src="./Images/dice-5.png" alt="🎲 Playing dice" class="dice" />
       <button class="btn btn--new">🔄 New game</button>
       <button class="btn btn--roll">🎲 Roll dice</button>
       <button class="btn btn--hold">📥 Hold</button>
 
-      <!-- Sparkles -->
+      <!-- ✨ Sparkles -->
       <div class="sparkles">
-        <img src="./Images/sparkles.gif" alt="" />
+        <img src="./Images/sparkles.gif" alt="✨ Sparkling victory!" />
       </div>
     </main>
   </body>
