@@ -42,7 +42,7 @@ You can play the game live [here](https://dice-game-hassanidev.netlify.app/)
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/dice-game.git
+   git clone https://github.com/HassaniDev/dice-game.git
    ```
 
 1. Navigate to the project folder
